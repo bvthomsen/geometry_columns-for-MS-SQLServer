@@ -1,0 +1,1 @@
+# geometry_columns-for-MS-SQLServer
