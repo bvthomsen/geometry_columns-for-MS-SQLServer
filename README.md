@@ -10,5 +10,5 @@ There are 2 files:
 
 TODO: 
 - Find original Stack-Exchange entries where part of the code orignated and aknowledge in readme 
-- Change content of run_when_spatial_tables_or_views_added.sql to a stored procedures
-- Extend existing rin_once with facilities to evaluate spatial extend of the specific table/view and update relevant columns with informatiiopn
+- Change content of run_when_spatial_tables_or_views_added.sql to a stored procedure
+- Extend existing run_once stored procedures with function to evaluate spatial extend of the specific table/view and update relevant columns with informatiiopn
