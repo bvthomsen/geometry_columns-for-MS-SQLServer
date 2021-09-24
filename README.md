@@ -5,7 +5,10 @@ SQL procedures and command to automatically update a geometry_columns table. It 
 You have to check the "Only look in the geometry_columns meta data table" in the MS SQL-Server connection details for QGIS to optimize its search 
 
 There are 2 files:
-- run_once: SQL to execute once in SQL Manager (or likewise) for each database to install 2 stored procedures and create table dbo.geometry_columns
-- run_when_spatial_tables_or_views_added: SQL to run in SQL Manager (or likewise) every time you add or remove a spatial table or view
+- run_once.sql: SQL to execute once in SQL Manager (or likewise) for each database to install 2 stored procedures and create table dbo.geometry_columns
+- run_when_spatial_tables_or_views_added.sql: SQL to run in SQL Manager (or likewise) every time you add or remove a spatial table or view
 
-TODO: Find original Stack-Exchange entries where part of the code orignated and aknowledge in readme 
+TODO: 
+- Find original Stack-Exchange entries where part of the code orignated and aknowledge in readme 
+- Change content of run_when_spatial_tables_or_views_added.sql to a stored procedures
+- Extend existing rin_once with facilities to evaluate spatial extend of the specific table/view and update relevant columns with informatiiopn
